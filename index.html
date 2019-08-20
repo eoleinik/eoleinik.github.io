@@ -1,3 +1,521 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Evgeniy Oleinik</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="description" content="Evgeniy Oleinik" />
+  <meta name="keywords" content="vcard, resposnive, retina, resume, portfolio" />
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/animate.css" type="text/css">
+  <link rel="stylesheet" href="css/animations.css" type="text/css">
+  <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+  <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+
+  <script src="js/modernizr.custom.js"></script>
+</head>
+
 <body>
-	<h1>I <3 Ann</h1>
+  <!-- Loading animation -->
+  <div class="preloader">
+    <div class="preloader-animation">
+      <div class="preloader-spinner">
+      </div>
+    </div>
+  </div>
+  <!-- /Loading animation -->
+
+  <div id="page" class="page">
+    <!-- Header -->
+    <header id="site_header" class="header mobile-menu-hide">
+      <div class="header-content clearfix">
+        <div class="my-photo">
+          <img src="images/photo-small.jpg" alt="image">
+        </div>
+
+        <div class="site-title-block">
+          <div class="site-title">Evgeniy Oleinik</div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="site-nav">
+          <!-- Main menu -->
+          <ul id="nav" class="site-main-menu">
+            <li>
+              <a class="pt-trigger" href="#about-me" data-animation="62">About Me</a>
+              <!-- href value = data-id without # of .pt-page. -->
+            </li>
+            <li>
+              <a class="pt-trigger" href="#resume" data-animation="62">Resume</a>
+            </li>
+            <li>
+              <a class="pt-trigger" href="#contact" data-animation="62">Contact</a>
+            </li>
+          </ul>
+          <!-- /Main menu -->
+        </div>
+        <!-- Navigation -->
+
+        <!-- Social Links -->
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/evgeniyoleinik/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/eoleinik/" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://medium.com/@oleinik" target="_blank"><i class="fab fa-medium-m"></i></a>
+          <a href="https://www.goodreads.com/user/show/50847488-evgeniy-oleinik" target="_blank"><i
+              class="fab fa-goodreads"></i></a>
+        </div>
+        <div class="social-links">
+          <a href="https://500px.com/eoleinik" target="_blank"><i class="fab fa-500px"></i></a>
+          <a href="https://www.youtube.com/channel/UC75q5LGfKLobfgfa-YFu1mA" target="_blank"><i
+              class="fab fa-youtube"></i></a>
+          <a href="https://www.instagram.com/oleinik.io/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <!-- / Social Links -->
+      </div>
+    </header>
+    <!-- /Header -->
+
+    <!-- Mobile Header -->
+    <div class="mobile-header mobile-visible">
+      <div class="mobile-logo-container">
+        <div class="mobile-header-image">
+          <a href="#">
+            <img src="images/photo-small.jpg" alt="image">
+          </a>
+        </div>
+        <div class="mobile-site-title"><a href="#">Evgeniy Oleinik</a></div>
+      </div>
+
+      <a class="menu-toggle mobile-visible">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <!-- /Mobile Header -->
+
+    <!-- Arrows Nav -->
+    <!-- <div class="lmpixels-arrows-nav">
+      <div class="lmpixels-arrow-left"><i class="lnr lnr-chevron-left"></i></div>
+      <div class="lmpixels-arrow-right"><i class="lnr lnr-chevron-right"></i></div>
+    </div> -->
+    <!-- /Arrows Nav -->
+
+    <!-- Main Content -->
+    <div id="main" class="site-main">
+      <!-- Page changer wrapper -->
+      <div class="pt-wrapper">
+        <!-- Subpages -->
+        <div class="subpages">
+
+          <!-- Home Subpage -->
+          <section class="pt-page" data-id="about-me">
+            <div class="section-inner start-page-full-width">
+              <div class="start-page-full-width">
+                <div class="row">
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="inner-content">
+                      <div class="fill-block"></div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="inner-content">
+                      <div class="hp-text-block">
+                        <!-- Text rotation / Subtitle -->
+                        <!-- <div class="owl-carousel text-rotation">
+                          <div class="item">
+                            <div class="sp-subtitle">Software Engineer</div>
+                          </div>
+                          <div class="item">
+                            <div class="sp-subtitle">Frontend-developer</div>
+                          </div>
+                        </div> -->
+                        <!-- /Text rotation / Subtitle -->
+
+                        <h2 class="hp-main-title">Evgeniy Oleinik</h2>
+                        <p>
+                          Hey! I'm a Software Engineer based in London, UK.
+                        </p>
+                        <p>
+                          I love building immersive functional products and have worked at startups big and small.
+                        </p>
+                        <p>
+                          In my spare time I ski, scuba dive, fly gliders and take photos. If you'd like to collaborate
+                          or just grab a coffee, don't hesitate to <a href="#contact">reach out</a>!
+                        </p>
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-inner custom-page-content">
+              <div class="page-content">
+                <!-- Services Block Title -->
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="col-inner">
+                      <div class="block-title">
+                        <h3>What I Do</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- /Services Block Title -->
+
+                <!-- Services Block -->
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="col-inner">
+                      <div class="info-list-w-icon">
+                        <!-- Service Item 1 -->
+                        <div class="info-block-w-icon">
+                          <div class="ci-icon">
+                            <i class="lnr lnr-laptop-phone"></i>
+                          </div>
+                          <div class="ci-text">
+                            <h4>Software Engineering</h4>
+                            <p>
+                              Full-stack services, performance optimization, API design and implementation, data
+                              analysis and visualization.
+                            </p>
+                          </div>
+                        </div>
+                        <!-- /Service Item 1 -->
+
+                        <!-- Service Item 2 -->
+                        <div class="info-block-w-icon">
+                          <div class="ci-icon">
+                            <i class="lnr lnr-rocket"></i>
+                          </div>
+                          <div class="ci-text">
+                            <h4>Electronics</h4>
+                            <p>Robo-arms, micro-satellites, connected diagnostic devices and games. You can also find me
+                              flying my drone all around the world.</p>
+                          </div>
+                        </div>
+                        <!-- Service Item 2 -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="col-inner">
+                      <div class="info-list-w-icon">
+                        <!-- Service Item 3 -->
+                        <div class="info-block-w-icon">
+                          <div class="ci-icon">
+                            <i class="lnr lnr-magic-wand"></i>
+                          </div>
+                          <div class="ci-text">
+                            <h4>Product/Project Management</h4>
+                            <p>
+                              B2B and B2C products, team leading, metrics, user discovery, feature prioritization and a
+                              bit of UI design.
+                            </p>
+                          </div>
+                        </div>
+                        <!-- Service Item 3 -->
+
+                        <!-- Service Item 4 -->
+                        <div class="info-block-w-icon">
+                          <div class="ci-icon">
+                            <i class="lnr lnr-eye"></i>
+                          </div>
+                          <div class="ci-text">
+                            <h4>Graphics</h4>
+                            <p>
+                              My most recent fascination. Shaders, GPUs, AR and all that jazz.
+                            </p>
+                          </div>
+                        </div>
+                        <!-- Service Item 4 -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- /Services Block -->
+
+              </div>
+            </div>
+          </section>
+          <!-- End of Home Subpage -->
+
+          <!-- Resume Subpage -->
+          <section class="pt-page" data-id="resume">
+            <div class="section-inner custom-page-content">
+              <div class="section-title-block second-style">
+                <h2 class="section-title">Resume</h2>
+              </div>
+
+              <div class="section-content">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-8">
+                    <div class="col-inner bs-30">
+
+                      <div class="block-title">
+                        <h3>Experience<span></span></h3>
+                      </div>
+
+                      <div class="timeline timeline-second-style clearfix">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h4 class="item-title">Facebook</span></h4>
+                            <h5 class="item-period">Sep '19 - Current</h5>
+                            <span class="item-company">London, UK</span>
+                          </div>
+                          <div class="divider divider-image divider-fb"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Software Engineer</span></h4>
+                            <p>
+                              Coming soon...
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h4 class="item-title">Palantir</span></h4>
+                            <h5 class="item-period">Jun '18 - Jul '19</h5>
+                            <span class="item-company">London, UK</span>
+                          </div>
+                          <div class="divider divider-image divider-pt"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Software Engineer</span></h4>
+                            <p>Led frontend development on the Data Connection team to enable secure data ingestion from
+                              cloud sources and on-prem DBs at hundreds of customers' projects.</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">Aug '17 - May '18</h5>
+                            <span class="item-company">London, UK</span>
+                          </div>
+                          <div class="divider divider-mini"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Forward Deployed Engineer</h4>
+                            <p>Applied and developed the Palantir Foundry platform for the anti-money laundering and
+                              financial compliance use cases.</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h4 class="item-title">Asana</h4>
+                            <h5 class="item-period">Jul '17 - Sep '19</h5>
+                            <span class="item-company">San Francisco, USA</span>
+                          </div>
+                          <div class="divider divider-image divider-asana"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Software Engineering Intern</h4>
+                            <p>
+                              Rewrote parts of the API on the new backend, developed OAuth and Custom Fields
+                              functionality.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="block-title">
+                        <h3>Education</h3>
+                      </div>
+
+                      <div class="timeline timeline-second-style bs-30 clearfix">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h4 class="item-title">KU Leuven</h4>
+                            <h5 class="item-period">2014-2017</h5>
+                            <span class="item-company">Leuven, Belgium</span>
+                          </div>
+                          <div class="divider divider-image divider-kul"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">BS in Engineering Technology</h4>
+                            <p>Major in Electronics Engineering, Summa Cum Laude.</p>
+                          </div>
+                        </div>
+
+                      </div>
+
+
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-4">
+                    <div class="col-inner">
+
+                      <div class="block-title">
+                        <h3>Coding Skills<span></span></h3>
+                      </div>
+
+                      <div class="skills-info skills-second-style">
+
+                        <div class="clearfix">
+                          <h4>React+TypeScript</h4>
+                        </div>
+                        <div class="skill-container">
+                          <div class="skill-percentage skill-80"></div>
+                        </div>
+
+                        <div class="clearfix">
+                          <h4>Python</h4>
+                        </div>
+                        <div class="skill-container">
+                          <div class="skill-percentage skill-80"></div>
+                        </div>
+
+                        <div class="clearfix">
+                          <h4>Java</h4>
+                        </div>
+                        <div class="skill-container">
+                          <div class="skill-percentage skill-60"></div>
+                        </div>
+
+                        <div class="clearfix">
+                          <h4>Apache Spark</h4>
+                        </div>
+                        <div class="skill-container">
+                          <div class="skill-percentage skill-50"></div>
+                        </div>
+
+                        <div class="clearfix">
+                          <h4>C/C++</h4>
+                        </div>
+                        <div class="skill-container">
+                          <div class="skill-percentage skill-40"></div>
+                        </div>
+
+                        <div class="clearfix">
+                          <h4>Scala</h4>
+                        </div>
+                        <div class="skill-container">
+                          <div class="skill-percentage skill-40"></div>
+                        </div>
+
+                      </div>
+
+                      <div class="block-title ts-10">
+                        <h3>Language Skills<span></span></h3>
+                      </div>
+
+
+                      <div class="skills-info skills-second-style">
+
+                        <div class="clearfix">
+                          <h4>English</h4>
+                        </div>
+                        <div class="skill-container">
+                          <div class="skill-percentage skill-95"></div>
+                        </div>
+
+                        <div class="clearfix">
+                          <h4>Russian</h4>
+                        </div>
+                        <div class="skill-container">
+                          <div class="skill-percentage skill-100"></div>
+                        </div>
+
+                        <div class="clearfix">
+                          <h4>French</h4>
+                        </div>
+                        <div class="skill-container">
+                          <div class="skill-percentage skill-50"></div>
+                        </div>
+
+                        <div class="clearfix">
+                          <h4>Dutch</h4>
+                        </div>
+                        <div class="skill-container">
+                          <div class="skill-percentage skill-10"></div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </section>
+          <!-- End of Resume Subpage -->
+
+          <!-- Contact Subpage -->
+          <section class="pt-page" data-id="contact">
+            <div class="section-inner custom-page-content">
+              <div class="section-title-block second-style">
+                <h2 class="section-title">Contact</h2>
+                <h5 class="section-description">Get in Touch</h5>
+              </div>
+
+              <div class="section-content">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <iframe id="gmap_canvas"
+                      src="https://maps.google.com/maps?q=London&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                      scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <!-- <div id="map" class="map"></div> -->
+                  </div>
+                </div>
+
+                <div class="row">
+
+                  <div class="col-xs-12 col-sm-3 offset-sm-3">
+                    <div class="col-inner bs-30">
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-map-marker"></i>
+                        <h4>London, UK</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-3">
+                    <div class="col-inner bs-30">
+                      <a href="mailto:hi@oleinik.io?subject=Hi%20from%20&body=%0A%0ASent%20from%20oleinik.io"
+                        target="_blank">
+                        <div class="lm-info-block gray-default">
+                          <i class="lnr lnr-envelope"></i>
+                          <h4>hi@oleinik.io</h4>
+                          <span class="lm-info-block-value"></span>
+                          <span class="lm-info-block-text"></span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End Contact Subpage -->
+
+        </div>
+      </div>
+      <!-- /Page changer wrapper -->
+    </div>
+    <!-- /Main Content -->
+  </div>
+
+  <script src="js/jquery-2.1.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/pages-switcher.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/validator.js"></script>
+  <script src="js/jquery.shuffle.min.js"></script>
+  <script src="js/masonry.pkgd.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <!--<script src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY"></script>-->
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script src="js/jquery.googlemap.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
+</html>
