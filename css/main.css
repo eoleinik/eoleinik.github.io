@@ -2797,6 +2797,7 @@ blockquote p {
 @media only screen and (max-width: 991px) {
   body {
     overflow-y: auto;
+    scroll-behavior: smooth;
   }
 
   .mobile-visible {
