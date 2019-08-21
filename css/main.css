@@ -626,7 +626,8 @@ blockquote {
   left: 0;
   right: 0;
   opacity: 0;
-  overflow: auto;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
   visibility: hidden;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -2797,7 +2798,6 @@ blockquote p {
 @media only screen and (max-width: 991px) {
   body {
     overflow-y: auto;
-    scroll-behavior: smooth;
   }
 
   .mobile-visible {
