@@ -43,6 +43,13 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');
 
+@font-face {
+  font-family: 'PartimeHandwritten';
+  src: url('../fonts/PartimeHandwritten.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 /* ============================================================================= 
 2. General styles
@@ -681,12 +688,24 @@ blockquote {
 }
 .section-inner.start-page-full-width .inner-content .fill-block {
   position: relative;
-  height: 100%;
-  min-height: 300px;
+  aspect-ratio: 1 / 1;
+  height: auto;
+  min-height: unset;
   width: 100%;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .section-inner.start-page-full-width .row > div:first-child {
+    flex: 0 0 35%;
+    max-width: 35%;
+  }
+  .section-inner.start-page-full-width .row > div:last-child {
+    flex: 0 0 65%;
+    max-width: 65%;
+  }
 }
 
 .section-inner.start-page-full-width .hp-text-block {
@@ -834,8 +853,9 @@ blockquote {
 }
 
 .site-title {
-  font-size: 24px;
-  font-weight: 600;
+  font-family: 'PartimeHandwritten', cursive;
+  font-size: 36px;
+  font-weight: normal;
   font-style: normal;
   line-height: 1.2em;
   color: #333333;
@@ -1297,6 +1317,10 @@ blockquote {
   border: 1px solid #eee;
 }
 
+.timeline-second-style .divider-meta:after {
+  background-image: url("../images/resume/meta-logo.jpg");
+}
+
 .timeline-second-style .divider-fb:after {
   background-image: url("../images/resume/fb-logo.png");
 }
@@ -1345,6 +1369,27 @@ blockquote {
   font-size: 14px;
   font-weight: 300;
   text-align: right;
+}
+
+.aka {
+  font-family: 'PartimeHandwritten', cursive;
+  font-weight: normal;
+  font-size: 0.75em;
+  color: #888;
+  margin-left: 6px;
+}
+
+#coding-skills {
+  position: relative;
+  overflow: visible;
+  padding: 0;
+}
+
+.skill-word {
+  position: absolute;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .skills-info.skills-second-style h4 {
@@ -2922,6 +2967,9 @@ blockquote p {
   .mobile-site-title a,
   .mobile-site-title a:focus,
   .mobile-site-title a:hover {
+    font-family: 'PartimeHandwritten', cursive;
+    font-size: 28px;
+    font-weight: normal;
     color: #222;
   }
 

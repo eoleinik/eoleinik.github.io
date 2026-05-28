@@ -1,0 +1,106 @@
+{
+  "name": "Evgeniy Oleinik",
+  "nickname": "evo",
+  "about": [
+    "Experienced Software Engineer based in Boston (formerly London, UK).",
+    "Love building immersive products and scalable infra. Worked at startups big and small.",
+    "In my spare time I ski, scuba dive, do sim racing and tinker with electronics. Here is how you can <a href=\"#contact\">get in touch</a>!"
+  ],
+  "services": [
+    {
+      "icon": "lnr-laptop-phone",
+      "title": "Software Engineering",
+      "description": "Full-stack services, performance optimization, batch processing, real-time streaming."
+    },
+    {
+      "icon": "lnr-rocket",
+      "title": "Electronics",
+      "description": "Micro-satellites, home automation, racing simulators."
+    },
+    {
+      "icon": "lnr-magic-wand",
+      "title": "Product/Project Management",
+      "description": "B2B and B2C products, team leading, metrics, user discovery, feature prioritization and a bit of UI design."
+    },
+    {
+      "icon": "lnr-eye",
+      "title": "Contextual AI",
+      "description": "Machine perception, RAG, real-time agentic systems."
+    }
+  ],
+  "experience": [
+    {
+      "company": "Meta",
+      "period": "Sep '21 - Current",
+      "location": "Boston, MA",
+      "dividerClass": "divider-meta",
+      "role": "Staff Software Engineer",
+      "description": "Building infrastructure and agentic systems in Reality Labs Research. Check out <a href=\"https://projectaria.com\" target=\"_blank\">projectaria.com</a>!"
+    },
+    {
+      "company": "",
+      "period": "Sep '19 - Sep '21",
+      "location": "London, UK",
+      "dividerClass": "divider-mini",
+      "role": "Senior Software Engineer",
+      "description": "Built foundational infrastructure for running Ads experiments across Facebook's entire Ads Recommendations machine fleet."
+    },
+    {
+      "company": "Palantir",
+      "period": "Jun '18 - Jul '19",
+      "location": "London, UK",
+      "dividerClass": "divider-pt",
+      "role": "Software Engineer",
+      "description": "Led frontend development on the Data Connection team to enable secure data ingestion from cloud sources and on-prem DBs at hundreds of customers' projects."
+    },
+    {
+      "company": "",
+      "period": "Aug '17 - May '18",
+      "location": "London, UK",
+      "dividerClass": "divider-mini",
+      "role": "Forward Deployed Engineer",
+      "description": "Applied and developed the Palantir Foundry platform for the anti-money laundering and financial compliance use cases."
+    },
+    {
+      "company": "Asana",
+      "period": "Jul '17 - Sep '19",
+      "location": "San Francisco, MA",
+      "dividerClass": "divider-asana",
+      "role": "Software Engineering Intern",
+      "description": "Rewrote parts of the API on the new backend, developed OAuth and Custom Fields functionality."
+    }
+  ],
+  "education": [
+    {
+      "school": "KU Leuven",
+      "period": "2014-2017",
+      "location": "Leuven, Belgium",
+      "dividerClass": "divider-kul",
+      "degree": "BS in Engineering Technology",
+      "description": "Major in Electronics Engineering, Summa Cum Laude."
+    }
+  ],
+  "codingSkills": [
+    { "name": "Python",           "level": 80 },
+    { "name": "React",            "level": 70 },
+    { "name": "TypeScript",       "level": 70 },
+    { "name": "Java",             "level": 60 },
+    { "name": "Hack/PHP",         "level": 50 },
+    { "name": "Apache Spark",     "level": 50 },
+    { "name": "C/C++",            "level": 40 },
+    { "name": "RAG",              "level": 30 },
+    { "name": "Indexing systems", "level": 30 },
+    { "name": "WebRTC",           "level": 20 },
+    { "name": "DB design",        "level": 20 },
+    { "name": "Scala",            "level": 10 }
+  ],
+  "languageSkills": [
+    { "name": "English", "level": 95  },
+    { "name": "Russian", "level": 100 },
+    { "name": "French",  "level": 50  }
+  ],
+  "contact": {
+    "location": "Boston, MA",
+    "email": "hi@oleinik.io"
+  }
+}
